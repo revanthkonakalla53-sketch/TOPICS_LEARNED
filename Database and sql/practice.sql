@@ -50,3 +50,44 @@ VALUES
   ("Ram", 28, 125),
   ("Charan", 25, 173),
   ("Ravan", 20, 152);
+
+
+  DROP TABLE player
+
+
+
+  ALTER TABLE
+  player RENAME COLUMN name TO full_name
+
+
+
+  SELECT
+  name,
+  age
+FROM
+  player
+
+
+  ALTER TABLE
+  player
+ADD
+  strike_rate float
+
+
+
+DELETE FROM
+  player
+WHERE
+  name = "David";
+
+
+
+
+
+
+UPDATE
+  player
+SET
+  age = 30
+WHERE
+  name = "Shyam";
