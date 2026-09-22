@@ -18,3 +18,11 @@ CREATE TABLE order_details(
   shipped_datetime datetime,
   total_amount float
 );
+
+
+
+CREATE TABLE player(name varchar, age integer, score integer);
+INSERT INTO
+  player(name, age, score)
+VALUES
+  ("Ram", 28, 30);
