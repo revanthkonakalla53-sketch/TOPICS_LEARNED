@@ -132,3 +132,38 @@ FROM
   Product
 WHERE
   price <= 1000
+
+
+
+  SELECT
+  *
+FROM
+  Product
+WHERE
+  name LIKE "%Chips%";
+
+
+
+
+SELECT
+  *
+FROM
+  Product
+WHERE
+  name LIKE "Bourbon%";
+
+
+
+SELECT
+  *
+FROM
+  Product
+WHERE
+  name LIKE "%Jeans";
+
+
+
+
+
+
+
