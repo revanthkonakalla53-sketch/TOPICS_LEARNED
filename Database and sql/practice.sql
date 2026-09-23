@@ -91,3 +91,14 @@ SET
   age = 30
 WHERE
   name = "Shyam";
+
+########day 2######
+problem statement:Consider an e-commerce company like Amazon that holds the data of a wide variety of products. While shopping online, we often search for the product or brand with a partial name over giving the exact name of the product. And, while applying filters, we tend to select if the price/rating is greater than a certain number over mentioning the exact number.
+
+Comparison operators such as LIKE, equal to(=), greater than(>) help us fetch data for such queries.
+
+Similar to the e-commerce scenario, we have a database that contains a range of products with details like the name of the product, category it belongs to, price, brand and rating. Help the user get the desired products by writing SQL queries satisfying user requirements.
+
+Note: Expected output format for all the queries, unless specified.
+
+queries and answers :
