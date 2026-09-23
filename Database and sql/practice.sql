@@ -102,3 +102,33 @@ Similar to the e-commerce scenario, we have a database that contains a range of 
 Note: Expected output format for all the queries, unless specified.
 
 queries and answers :
+
+
+
+SELECT
+  *
+FROM
+  Product
+WHERE
+  brand LIKE "Puma%";
+
+
+
+SELECT
+  *
+FROM
+  Product
+WHERE
+  rating > 4.0
+
+
+
+
+
+
+SELECT
+  *
+FROM
+  Product
+WHERE
+  price <= 1000
